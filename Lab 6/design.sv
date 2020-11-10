@@ -6,7 +6,7 @@ module one_bit_comparator(A, Z); //Module definition accomponied by it's port's
 	//DECLARING PORT MODES: 
   	
   	input [3:0] A; 			//A 4-bit binary input   
-	output Z; 				//A 1-bit binary output
+    output Z; 				//A 1-bit binary output
   
   	//ANY INTERNAL WIRES THAT ESTABLISH CONNECTIVITY
   	
