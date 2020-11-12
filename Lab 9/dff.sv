@@ -8,20 +8,16 @@ module dff_asyncpre(clk, d, q, preset);
   //ALWAYS BLOCK
   always @(posedge clk) begin
       
-      //IF PRESET = 0 THEN SET Q = 1
+    //IF PRESET = 0 THEN SET Q = 1
     if(preset == 0) begin
-        assign q = 1;
+        q <= 1'b1;
     end
-      
+    else begin
+          
       //ADD D-FF FUNCTIONALITY
-      assign q = d;
-
-      //OR
-
-      //case(d)
-        //1'b0: q = 0;
-        //1'b1: q = 1;
-    
+      q <= d;
+    end
+        
   //END ALWAYS posedge BLOCK
   end
     

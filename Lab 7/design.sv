@@ -35,5 +35,4 @@ module top(a, sel, out);
   
   mux_4to1 	m(.a(rcaout), .b(oddevenout), .c(div4out), .d(twocompout), .sel(sel), .out(out));
   
-  
 endmodule

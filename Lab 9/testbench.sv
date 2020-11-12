@@ -17,9 +17,6 @@ module lfsr_tb;
 		preset_tb <= 1'b0;
       	
       	#5 preset_tb <= 1'b1;
-      
-    
-      
       	
       	#500 $finish;
 		
