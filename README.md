@@ -4,18 +4,20 @@
    
 <br>
 
-| <h2>Table of Contents                      |
+## Table of Contents
+
+|
 | :---------                                 |
 | [ What is Verilog?             ](#1)       |
 | [ Coding Structures            ](#2)       |
-| [ ---Basic Syntax              ](#2.1)     |
-| [ ------Modules                ](#2.1.1)   |
-| [ ------IO                     ](#2.1.2)   |
-| [ ------Wires                  ](#2.1.3)   |
-| [ ---Gate Level                ](#2.2)     |
-| [ ---Data Flow                 ](#2.3)     |
-| [ ---Behaviorial / Algorithmic ](#2.4)     |
-| [ ---Switch Level              ](#2.5)     |
+| [ — Basic Syntax              ](#2.1)      |
+| [ — — Modules                ](#2.1.1)     |
+| [ — — IO                     ](#2.1.2)     |
+| [ — — Wires                  ](#2.1.3)     |
+| [ — Gate Level                ](#2.2)      |
+| [ — Data Flow                 ](#2.3)      |
+| [ — Behaviorial / Algorithmic ](#2.4)      |
+| [ — Switch Level              ](#2.5)      |
 
 <br>
 
