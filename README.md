@@ -9,9 +9,10 @@
 - [ What is Verilog?               ](#1)
 - [ Coding Structures              ](#2)
 - [ — Basic Syntax                 ](#2.1)
-- [ — — Modules                    ](#2.1.1)
+- [ — — Variables                  ](#2.1.1)
 - [ — — IO                         ](#2.1.2)
-- [ — — Wires                      ](#2.1.3)
+- [ — — Modules                    ](#2.1.3)
+- [ — — Wires                      ](#2.1.4)
 - [ — Gate Level                   ](#2.2)
 - [ — Data Flow                    ](#2.3)
 - [ — Behaviorial / Algorithmic    ](#2.4)
@@ -41,11 +42,37 @@ There are four different techniques to programming a FPGA with Verilog, along wi
 
 <a name="2.1.1"></a>
 
+#### *Variables*
+
+Insert here.
+
+<br>
+
+<a name="2.1.2"></a>
+
+##### *IO*
+
+Input and output is most commonly used inside of a module. Declaring input and output inside of a module goes as follows: 
+
+``` verilog
+input input_1, input_2;
+output my_output;
+```
+
+When declaring IO within a module, it is important that the variable names correspond to that in the module's argument. 
+
+<br>
+
+<a name="2.1.3"></a>
+
 ##### *Modules*
 Verilog views FPGAs as a multitude of 'modules', which act in a similar fashion to functions in a software language. It is common in computer engineering to simplify devices to block diagrams, i.e. taking a top down view of all components. A module functions as a block which takes input, completes a process, and delivers output. Inside said module is where the following structures can be implemented to produce output. 
 
 ``` verilog
-module my_module(input_1 input_2, my_output);
+module my_module(input_1, input_2, my_output);
+
+input input_1, input_2;
+output my_output;
 ...
 endmodule
 ```
@@ -54,13 +81,7 @@ It is important to keep in mind that modules are general structures that can be 
 
 <br>
 
-<a name="2.1.2"></a>
-
-##### *IO*
-
-<br>
-
-<a name="2.1.3"></a>
+<a name="2.1.4"></a>
 
 ##### *Wires* 
 Wires are a fundamental concept used in verilog. A wire's simple purpose within Verilog is to make a connection between two devices, whether that be logic gates, flip-flops, etc. Declaring a wire goes as follows:
