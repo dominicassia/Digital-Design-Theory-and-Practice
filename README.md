@@ -6,18 +6,16 @@
 
 ## Table of Contents
 
-|
-| :---------                                 |
-| [ What is Verilog?             ](#1)       |
-| [ Coding Structures            ](#2)       |
-| [ — Basic Syntax              ](#2.1)      |
-| [ — — Modules                ](#2.1.1)     |
-| [ — — IO                     ](#2.1.2)     |
-| [ — — Wires                  ](#2.1.3)     |
-| [ — Gate Level                ](#2.2)      |
-| [ — Data Flow                 ](#2.3)      |
-| [ — Behaviorial / Algorithmic ](#2.4)      |
-| [ — Switch Level              ](#2.5)      |
+- [ What is Verilog?               ](#1)
+- [ Coding Structures              ](#2)
+- [ — Basic Syntax                 ](#2.1)
+- [ — — Modules                    ](#2.1.1)
+- [ — — IO                         ](#2.1.2)
+- [ — — Wires                      ](#2.1.3)
+- [ — Gate Level                   ](#2.2)
+- [ — Data Flow                    ](#2.3)
+- [ — Behaviorial / Algorithmic    ](#2.4)
+- [ — Switch Level                 ](#2.5)
 
 <br>
 
@@ -40,7 +38,6 @@ There are four different techniques to programming a FPGA with Verilog, along wi
 
 ### Basic Syntax
 
-<br>
 
 <a name="2.1.1"></a>
 
@@ -54,6 +51,8 @@ endmodule
 ```
 
 It is important to keep in mind that modules are general structures that can be reused, and implemented inside of and adjacent to other modules. 
+
+<br>
 
 <a name="2.1.2"></a>
 
