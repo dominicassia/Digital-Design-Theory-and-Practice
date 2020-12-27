@@ -44,7 +44,30 @@ There are four different techniques to programming a FPGA with Verilog, along wi
 
 #### *Variables*
 
-Insert here.
+Verilog variables are similar to any other language, but offer more options when specifying. Say we wanted the varaible name 'A' to be equal to 12. We can specify this value either as '12' or specify the bits which compose 12: 1100. The syntax goes as follows:
+
+``` verilog
+    parameter A = 12;
+    parameter A = 4'b1100;
+```
+*Also written as:*
+
+``` verilog
+    parameter A = 12, B = 4'b1100;
+```
+
+The ```4'b``` represents the four binary bits that will be used to store the integers following. Parameter is specifying a variable that will be used *within* the module (we will touch on this later). There are many sytaxical prefixes that accompany declarations depending on use case.
+
+Despite using IO, which we discuss in the next section, the square brace scheme and registers are fundamental for verilog.
+
+Some examples:
+
+``` verilog
+    reg [1:0] A = 2'b11;    // register A = 2 bit binary 11
+    
+    assign A = x xor y      // variable A = 2 input XOR, taking in x and y 
+```
+*This readme doesn't get into full detail, refer to [documentation](https://verilogguide.readthedocs.io/en/latest/verilog/datatype.html)*
 
 <br>
 

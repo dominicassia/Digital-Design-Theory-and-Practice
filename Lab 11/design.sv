@@ -1,7 +1,7 @@
 module gameboy
 (
-  input  clock, reset,
-  input [1:0] x,
+  input clock, reset,
+  input [1:0] x
   output reg [2:0] z
 );
 	
