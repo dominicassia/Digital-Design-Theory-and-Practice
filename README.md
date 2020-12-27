@@ -4,6 +4,25 @@
    
 <br>
 
+## Assignments
+
+*Breadboard Labs: 1-5, Verilog Labs: 6-11*
+
+|       Assignment     |       Description          |
+| ---------------------|--------------------------- | 
+| [Lab 01](/Lab-01)    | Lighting an LED, Breadboard & Oscilloscope usage |
+| [Lab 02](/Lab-02)    | Working with a digital integrated circuit (IC) |
+| [Lab 03](/Lab-03)    | Boolean Algebra, DeMorgan's Law |
+| [Lab 04](/Lab-04)    | K-Map & Validation |
+| [Lab 05](/Lab-05)    | Combinational logic timing hazards |
+| [Lab 06](/Lab-06)    | Intro to Verilog, One bit comparator |
+| [Lab 07](/Lab-07)    | Mutilplexer, Comparator, Ripple-carry adder, Divisor, Two's Comp. converter |
+| [Lab 08](/Lab-08)    | Flip Flops and Excitation tables |
+| [Lab 09](/Lab-09)    | Linear feedback shift register |
+| [Lab 10](/Lab-10)    | State machines |
+| [Lab 11](/Lab-11)    | Gameboy state machine |
+
+
 ## Table of Contents
 
 - [ What is Verilog?               ](#1)
