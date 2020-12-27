@@ -161,3 +161,6 @@ Declarations of other gate varieties follow the same pattern.
 <a name="2.5"></a>
 
 ### Switch Level
+
+
+[dominicassia/CE-270 is licensed under the GNU General Public License v3.0](/LICENSE)
