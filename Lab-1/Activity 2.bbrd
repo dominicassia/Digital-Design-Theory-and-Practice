@@ -1,0 +1,15 @@
+<breadboard>
+  <setting key="numberOfBreadboards" value="1" />
+  <setting key="simulationSpeed" value="1" />
+  <setting key="positiveRailVoltage" value="5" />
+  <setting key="negativeRailVoltage" value="-5" />
+  <component ref="D1" type="LED" startX="240" startY="135" angle="0" model="Orange" />
+  <component ref="D2" type="LED" startX="165" startY="135" angle="0" model="Orange" />
+  <component ref="D3" type="LED" startX="330" startY="135" angle="0" model="Orange" />
+  <component ref="P1" type="Probe" startX="330" startY="150" angle="0" />
+  <wire startX="241" startY="61" length="4" orientation="vert" colour="#FFFF0000" />
+  <wire startX="256" startY="61" length="4" orientation="vert" colour="#FFFF0000" />
+  <wire startX="166" startY="121" length="-4" orientation="vert" colour="#FFFF0000" />
+  <wire startX="331" startY="121" length="-4" orientation="vert" colour="#FFFF0000" />
+  <wire startX="346" startY="151" length="9" orientation="vert" colour="#FF000000" />
+</breadboard>

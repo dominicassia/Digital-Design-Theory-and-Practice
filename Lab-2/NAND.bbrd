@@ -1,0 +1,15 @@
+<breadboard>
+  <setting key="numberOfBreadboards" value="1" />
+  <setting key="simulationSpeed" value="1" />
+  <setting key="positiveRailVoltage" value="5" />
+  <setting key="negativeRailVoltage" value="-5" />
+  <component ref="D1" type="LED" startX="255" startY="195" angle="0" model="Orange" />
+  <component ref="IC1" type="Integrated Circuit" startX="105" startY="150" angle="0" model="4011 NAND" />
+  <wire startX="106" startY="61" length="5" orientation="vert" colour="#FFFF0000" />
+  <wire startX="61" startY="61" length="9" orientation="vert" colour="#FFFF0000" />
+  <wire startX="271" startY="211" length="5" orientation="vert" colour="#FF000000" />
+  <wire startX="196" startY="256" length="2" orientation="vert" colour="#FF000000" />
+  <wire startX="136" startY="211" length="8" orientation="horiz" colour="#FF006400" />
+  <wire startX="106" startY="211" length="-3" orientation="horiz" colour="#FFFF0000" />
+  <wire startX="121" startY="211" length="5" orientation="vert" colour="#FF000000" />
+</breadboard>
