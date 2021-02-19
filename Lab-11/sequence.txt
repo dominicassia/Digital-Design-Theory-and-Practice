@@ -1,0 +1,87 @@
+BEGIN GAME
+
+Run
+   __O
+  / /\_,
+___/\ 
+    /_
+
+INCOMING ENEMY GET READY TO FIGHT ..
+
+ATTACK!
+
+Kick
+\_O__
+  \__      __
+  |  \__  /00\ 
+ /       /    \
+
+Punch
+    _______
+---'   ____)
+      (_____)   __
+      (_____)  /00\ 
+---.__(___)   /    \
+
+Kick
+\_O__
+  \__      __
+  |  \__  /00\ 
+ /       /    \
+
+Punch
+    _______
+---'   ____)
+      (_____)   __
+      (_____)  /00\ 
+---.__(___)   /    \
+
+ENEMY DEFEATED .. CONTINUE TRAVELING
+
+Run
+   __O
+  / /\_,
+___/\ 
+    /_
+
+ENTERING JUNGLE GET READY TO REACT TO DANGERS ..
+
+INCOMING TREE STUMP
+
+Jump 
+    \O
+     |\_
+    /-\
+  /      \
+     __
+    |__|
+
+INCOMING BEE HIVES ABOVE
+
+Duck
+(____)
+ (__)
+  (_)
+    
+  __0
+ /  \
+
+INCOMING TREE STUMP
+
+Jump 
+    \O
+     |\_
+    /-\
+  /      \
+     __
+    |__|
+
+EXITED JUNGLE SAFELY .. CONTINUE TRAVELING
+
+Run
+   __O
+  / /\_,
+___/\ 
+    /_
+
+***** WINNER ******
