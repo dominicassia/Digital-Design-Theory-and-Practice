@@ -16,7 +16,7 @@ module gameboy( input clock, reset, input [1:0] x, output reg [2:0] z );
         if (reset)
             state <= IDLE;
         else begin
-			// State switch
+// State switch
             case(state)
                 IDLE:
                     if (x == React)         // <Press> React
