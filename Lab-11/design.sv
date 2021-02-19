@@ -11,7 +11,7 @@ module gameboy( input clock, reset, input [1:0] x, output reg [2:0] z );
 
     // State Block
     always @(posedge clock or posedge reset) begin
-    
+			
         // Reset --> IDLE
         if (reset)
             state <= IDLE;
