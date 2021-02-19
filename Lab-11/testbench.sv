@@ -7,7 +7,7 @@ module gameboy_tb;
   	gameboy DUT( .clock(CLOCK), .x(X), .reset(RESET), .z(Z));
   	// Use same parameters
   	parameter Kick = 0, Punch = 1, Jump = 2, Duck = 3, Run = 4;
-    parameter Fight = 0, React = 1, A = 2, B = 3;
+        parameter Fight = 0, React = 1, A = 2, B = 3;
   
 	// Establish output
   	always @ (Z) begin
